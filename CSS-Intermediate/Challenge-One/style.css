@@ -1,0 +1,34 @@
+body {
+	background-color: #333399;
+}
+
+
+#wrap {
+  height: 75vh;
+}
+
+#nav , #content {
+	display: inline-block;
+	height: 100%;
+}
+
+#nav {
+	background-color:#99ccff ;
+	float: left;
+	margin-left: 10%;
+
+}
+
+#content {
+	background-color: #6666ff;
+	text-align: center;
+	width: 60%;
+}
+
+#none {
+	list-style: none;
+}
+
+.copyright {
+	text-align: center;
+}
