@@ -1,0 +1,27 @@
+body {
+	background: #99ccff;
+}
+
+.head {
+	text-align: justify;
+	font-family: sans-serif;
+}
+
+ul {
+	text-align: center;
+	list-style: none;
+	font-family: sans-serif;
+}
+
+span{
+	font-size: 1.5em;
+	font-style: bold;
+}
+
+p{
+	font-family: sans-serif;
+}
+
+.copyright{
+	font-size: 0.9em;
+}
