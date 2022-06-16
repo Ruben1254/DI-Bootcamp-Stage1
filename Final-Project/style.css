@@ -4,7 +4,99 @@
 
 body {
   margin: 0;
-  font-family: "Public Sans", sans-serif;
-  background-color: #94b8b8;
+  font-family: "Playfair Display SC", sans-serif;
+  background-color: whitesmoke;
   overflow-x: hidden;
 }
+
+/*style header-*/
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #342D2C;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.navigation a {
+  text-decoration: none;
+  font-family: "Playfair Display SC";
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navigation a:hover {
+  color: #444444;
+  background-color: #fff;
+}
+
+/*Openning image*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 49px;
+}
+
+.main-image {
+  width: 100%;
+  background-color: #2A2626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-width: 1345px;
+}
+
+.text {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  color: #ffffff;
+}
+.title {
+  font-size: 60px;
+  font-family: "Playfair Display SC";
+  margin-bottom: 0px;
+  font-family: white;
+}
+.img-caption {
+  font-size: 24px;
+  margin-top: 5px;
+  font-family: white;
+  flex-direction: row-reverse;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+#biography {
+  text-align: center;
+  margin: auto 20%;
+}
+
+#songs {
+  display: inline-block;
+}
+
